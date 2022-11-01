@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat Online</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://rawgit.com/leizongmin/js-xss/master/dist/xss.js"></script>
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="header">
+			<input class="input-name" type="text" id="name" placeholder="Digite seu nome">
+			<button class="btn-name">Entrar</button>
+		</div>
+
+		<div class="box">
+			<div class="box-header">
+				<h2>Chat</h2>
+			</div>
+
+			<div class="box-body">
+			</div>
+
+			<div class="box-footer">
+				<input type="text" class="input-message" id="message" placeholder="Digite sua mensagem">
+				<button class="btn-send">Enviar</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
