@@ -15,23 +15,23 @@ Chat Online is a real-time chat application built using Node.js, Express, and So
 
 Clone the repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/NeguinDev/chat-online.git
-\`\`\`
+```
 
 Install the dependencies:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ## Usage
 
 To start the application, run:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 Open `http://localhost:3000` in your web browser.
 
